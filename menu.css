@@ -1,0 +1,1244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+   
+    
+}
+
+body{
+   
+    background: #fff;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+@media screen and (max-width:600px) {
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 5%;
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
+    background: rgb(29, 29, 29);
+    /*margin-bottom: 10px;*/
+    
+}
+
+nav .logo{
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 80px;
+   
+}
+
+
+nav .logo a{
+    color: rgb(71, 204, 245);
+    letter-spacing: .3rem;
+   
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding-right: 40px;
+}
+
+nav ul li{
+    padding: 8px 15px;
+    border-radius: 10px;
+    
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+
+nav ul li a:hover{
+    color:rgb(71, 204, 245);
+}
+
+nav .menuBtn{
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: none;
+    color: #f0f0f0;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+
+/*----------------Responsive nav menu--------------------*/
+
+@media screen and (max-width:820px){
+    nav .menuBtn{
+        display: flex;
+        padding-right: 20px;
+    }
+
+    nav .navlinks{
+        display: none;
+    }
+
+    .sideNav{
+        display: block !important;
+    }
+
+    nav .logo{
+        font-size: 24px;
+        font-weight: 400;
+        padding-left: 20px;
+    }
+
+
+   
+
+}
+
+
+
+
+/*--------------------------Side Nav Menu----------------------------*/
+
+.sideNav{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(41, 41, 41);
+    overflow-x: hidden;
+    transition: 0.3s ease-in;
+    padding-top: 60px;
+    display: none;
+    z-index: 200;
+}
+
+.sideNav a{
+    padding: 8px 8px 8px 40px;
+    display: block;
+    font-size: 25px;
+    color:#fff;
+    transition: 0.3s;
+    text-decoration: none;
+    
+}
+
+.sideNav a:hover{
+    color: rgb(158, 158, 158);
+}
+    
+.sideNav .closeBtn{
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+
+/*----------------------------CSS for the Header----------------------------*/
+
+.homey{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background: #000;
+  /*  background:url(images/home-bg3.jpg) no-repeat; */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.homey.swiper {
+    width: 100%;
+    
+  }
+
+.btn{
+    margin-top: 2rem;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    background: rgb(71, 204, 245);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .6rem 3rem;
+}
+
+.btn:hover{
+    background: rgb(255, 172, 47);
+    letter-spacing: .1rem;
+    color: rgb(80, 80, 80);
+}
+
+.homey .swiper .swiper-slide .content a{
+    text-decoration: none;
+}
+
+.homey .swiper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 5rem;
+}
+
+
+
+.homey .swiper .swiper-slide .content{
+    display: block;
+    flex: 1 1 45rem; 
+    padding-left: 100px;
+    
+}
+
+.homey .swiper .swiper-slide .image{
+    flex:1 1 34rem;                  /*when I change 34, size changes*/
+    padding-right: 100px;
+    
+}
+
+.homey .swiper .swiper-slide .image img{
+    width: 100%;
+}
+
+.homey .swiper .swiper-slide .content span{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin:0 auto;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+
+.homey .swiper .swiper-slide .content h3{
+    color: #47ccf5;
+    font-size: 3rem;
+    margin:20px auto;
+    
+}
+
+.homey .swiper .swiper-slide .content p{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    line-height: 1.4;
+    width: 480px;
+    
+    
+    
+}
+
+.swiper-pagination-bullet-active{
+    background: rgb(71, 204, 245);
+
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+    opacity: 1;
+    border: white solid 1px;
+    background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+
+
+
+
+
+ 
+
+
+/*--------------------------Header responsiveness-----------------------------*/
+
+@media screen and (max-width:820px) {
+
+
+    .homey{
+        margin-top: -190px;
+        height: 100vh;
+    }
+
+    .homey .swiper .swiper-slide{
+        text-align: center;
+                
+    }
+
+    .homey .swiper .swiper-slide .content{
+        
+        padding-left: 0;
+       
+    }
+    
+    .homey .swiper .swiper-slide .image{
+                     
+        padding-right: 0;
+        
+    }
+
+    .homey .swiper .swiper-slide .content span{
+        
+        font-size: 1rem;
+        letter-spacing: .4rem;
+        
+        
+    }
+
+    .homey .swiper .swiper-slide .content h3{
+        font-size: 2.3rem;
+        margin: 0; 
+        padding-bottom: 20px;
+        
+    }
+
+    .homey .swiper .swiper-slide .content p{
+        font-size: 1.1rem;
+        max-width: 70%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+       
+    }
+
+  .btn{
+    margin-bottom: 20px;
+    padding: .3rem 2rem;
+  }
+
+  .homey .swiper .swiper-slide .image img{
+    width: 50%;
+}
+
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .homey{
+        margin-top: -50px;
+    }
+
+    .homey .swiper .swiper-slide{
+        text-align: center;
+                
+    }
+
+    .homey .swiper .swiper-slide .content p{
+        font-size: 1rem;
+        max-width: 48%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .homey .swiper .swiper-slide .content h3{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        margin-top: 12px;
+    }
+
+    .homey .swiper .swiper-slide .image img{
+        width: 300px;                 /*when I change 34, size changes*/
+       
+        
+    }
+
+
+
+
+}
+
+
+
+
+/*----------------------------END of Header CSS----------------------------*/
+
+
+
+/*--------------------CSS for the header----------------------*/
+/*
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding-top: 50px;
+    background: url(images/header.jpg);
+}
+
+.row .column1{
+
+    margin-right: -100px;
+    padding-left: 180px;
+    margin-top: -40px;
+    
+}
+
+.row .column1 h1{
+    line-height: 54px;
+    padding-bottom: 50px;
+}
+
+.row .column2{
+  
+    display: flex;
+    margin-right: 40px;
+    
+}
+
+.row .column2 img{
+  
+    width: 900px;
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 100px;
+    
+}
+
+.column1 h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.column1 p{
+    font-size: 18px;
+    margin-bottom: 60px;
+    
+}
+
+.column1 button{
+    width: 150px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    background-color: darkorange;
+    
+    
+}
+
+.column1 button a{
+    text-decoration: none;
+}
+
+.column1 button:hover{
+    background-color: rgb(255, 81, 0);
+    transition: 0.1s ease-in;
+    cursor: pointer;
+   
+    
+}
+*/
+
+
+/*----------------Header responsiveness--------------------*/
+
+
+@media screen and (max-width:820px) {
+
+    
+}
+
+@media screen and (max-width:600px) {
+
+}
+
+/*-------------------CSS for About section------------------------*/
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #222222;
+    padding-top: 100px;
+}
+
+.about .kontent img{
+    height: auto;
+    width: 500px;
+    max-width: 100%;
+}
+
+.text{
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.kontent{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.text h1{
+    color: #47ccf5;
+    font-size: 58px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.text h5{
+    color: rgb(223, 223, 223);
+    font-size: 21px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    
+}
+
+.text p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 48px;
+}
+
+button{
+    background-color: #47ccf5;
+    color: black;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: darkorange;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:820px){     /*-----IPAD------*/
+    .about{
+        width: 100%;
+        padding: 25px 0px;  
+        height: 60vh;
+       
+    }
+
+    .text{
+        width: 360px;
+        margin-right: 50px;
+
+    }
+
+    .about .kontent{
+        display: flex;
+        justify-content: space-between;  
+        align-items: center;
+        
+    }
+
+    .about .kontent img{
+        width: 320px;
+        padding-left: 50px;
+        margin-top: -100px;
+    }
+
+    .text h1{
+        font-size: 30px;
+    }
+
+    .text h5{
+        font-size: 15px;
+    }
+
+    .text p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:650px){      /*-----PHONE------*/
+    
+ 
+  
+
+    .about{
+        height: 100vh;
+    }
+
+    .about .kontent{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .kontent img{
+        width: 220px;
+        margin-right: 50px;
+    }
+
+    .text{
+        
+        margin: auto;
+        max-width: 320px;
+    }
+
+    .text button{
+        margin-top: -10px;
+    }
+
+    .text h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+/*--------------------CSS for the Gallery-----------------*/
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8% 200px;
+}
+
+.container .webDev{
+    display: block;
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+    padding-top: 30px;
+    
+}
+
+.container .webDev h2{
+   
+    padding: 70px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: rgb(133, 133, 133);
+    font-size: 24px;
+    letter-spacing: .4rem;
+}
+
+.container .webDev h2::after{
+    content: '';
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: darkorange;
+    width: 320px;
+    height: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    
+}
+
+.container .webDev img{
+   
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    
+    
+}
+
+.container .portfolioHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 92px;
+    font-size: 17px;
+    letter-spacing: .4rem;
+    color: rgb(133, 133, 133);
+    
+    
+}
+
+.portfolioHeader h2::after{
+    content: '';
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background: darkorange;
+    width: 164px;
+    height: 5px;
+    margin: 10px auto 50px;
+    position: absolute;
+
+}
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+
+/*-------------------------------Gallery responsive---------------------------*/
+
+
+@media screen and (max-width:600px) {
+
+    .container{
+        padding-bottom: 40px;
+    }
+    .container .portfolioHeader{
+       
+        font-size: 13px;
+        letter-spacing: .3rem;
+        color: rgb(133, 133, 133); 
+    }
+
+    .portfolioHeader h2::after{
+        width: 128px;
+        height: 3px;
+        margin-top: 5px;
+    }
+
+    .container .webDev h2{
+    
+        font-size: 15px;
+        letter-spacing: .3rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .container .webDev h2::after{
+
+        width: 209px;
+        height: 3px;
+        padding-top: 10px;
+        margin-top: 5px;
+        padding: 0;
+        
+    }
+    
+
+}
+
+
+/*---------------------------CSS for the contact section------------------------*/
+
+
+.contactBody{
+    width: 100%;
+    background: #f0f0f0;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 60px;
+    
+}
+
+.contactBody .contactHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+}
+
+
+
+.contactHeader h2::after{
+    content: '';
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: darkorange;
+    width: 200px;
+    height: 5px;
+    margin: 10px auto 50px;
+    
+    
+}
+
+form{
+    padding-top: 50px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form button{
+    padding: 15px;
+    background: ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    
+}
+
+
+/*-------------------Contact Responsiveness------------------------*/
+
+@media screen and (max-width:820px) {
+    .contactBody{
+        height: 80vh;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .contactBody{
+        height: 100vh;
+    }
+
+    form button{
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+
+
+/*-----------------------Footer section--------------------------*/
+
+.footer{
+    padding-top: 50px;
+    background-color: #fff;
+    display: block;
+    align-items: center;
+
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #4b4c4d;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    
+    opacity: 0.55;
+}
+
+.footer .social a:hover{
+    opacity: 0.9;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.55;
+}
+
+.footer ul li{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    padding: 10px .5rem;
+    
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #aaa;
+    
+}
+
+
+/*----------------------------Responsive Footer-------------------------------*/
+
+@media screen and (max-width:820px) {
+    .footer{
+        padding: 60px 10px 20px;
+        
+    }
+
+    .footer .social a{
+        font-size: 19px;
+        padding: 0;
+    }
+
+    .footer ul li{
+        padding:4px;
+        font-size: 14px;
+        
+    }
+
+    .copyright{
+        padding-top: 60px;
+    }
+
+
+}
+
+
+
+/*----------------------------Our Services section---------------------------------*/
+
+
+
+
+.kontainer{
+    width: 100%;
+    min-height: 100vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8% 100px;
+    background: lightgray;
+}
+
+.kontainer .servicesHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 32px;
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    
+    
+}
+
+.servicesHeader h2::after{
+    content: '';
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: darkorange;
+    width: 200px;
+    height: 5px;
+    margin: 10px auto 50px;
+    
+}
+
+.cardsHolder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 64px;
+}
+
+.card{
+    background: white;
+    width: 330px;  
+    margin: 10px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: all .3s ease;    
+}
+
+
+
+.card-image{
+    
+    height: 330px;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+.card-1{
+    background-image: url(images/logo-card.jpg);
+}
+
+.card-2{
+    background-image: url(images/coffee-card.png);
+}
+
+.card-3{
+    background-image: url(images/web-card.png);
+}
+
+.card h2{
+    padding: 10px;
+    color: darkorange;
+}
+
+.card h3{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: #47ccf5;
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    margin: 20px 60px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.card a:hover{
+    background:darkorange;
+    color: rgb(48, 48, 48);   
+}
+
+.card ul{
+    text-align: start;
+    margin-left: 110px;
+}
+
+
+/*-----------------------Our services responsive--------------------------*/
+
+
+
+@media screen and (max-width:820px) {
+    .kontainer .servicesHeader{
+        letter-spacing: .2rem;
+        font-size: 13px;  
+    }
+    
+    .servicesHeader h2::after{
+     
+        width: 162px;
+        height: 3px;
+        margin-top: 5px;
+        height: 5px;
+       
+        
+    }
+}
+
+@media screen and (max-width:600px) {
+    .kontainer{
+        padding-top: 20px;
+    }
+
+    .cardsHolder{
+        padding-top: 0;
+        
+    }
+
+    .card{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    .card-image{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

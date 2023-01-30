@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+
+    <title>blukage media</title>
+</head>
+<body>
+
+    <!---------------------Navigation Menu------------------------>
+
+    <nav>
+        <div class="logo"><a href="index.html"><span>blukage.</span></div>
+
+        <!-----------------Toggle humburger button----------------->
+
+        <span class="menuBtn" onclick="openNav(); return false;">&#9776</span>
+        
+        <div class="navlinks">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">My work</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contactForm">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!---------------------------Responsive side navbar---------------------------------->
+
+    <div class="sideNav" id="sidenavbar">
+        <a href="#" class="closeBtn" onclick="closeNav(); return false;" >&#10006;</a>
+        <a href="#about" onclick="closeNav();">About</a>
+        <a href="#portfolio" onclick="closeNav();">My work</a>
+        <a href="#services" onclick="closeNav();">Services</a>
+        <a href="#contactForm" onclick="closeNav();">Contact</a>
+    </div>
+
+
+
+     <!------------------------------Header with auto slider-------------------------->
+
+     <section class="homey" id="home">
+        
+        
+        <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="content">
+                        <span>What I do</span>
+                        <h3>PACKAGING DESIGN</h3>
+                        <p>
+                           Dreaming of starting your own brand but don't know where to start?
+                           we'll turn your idea into reality 
+                        </p>
+                        <a href="#" class="btn">EXPLORE</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/header-macbook.jpg">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="content">
+                        <span>My services</span>
+                        <h3>LOGO DESIGN</h3>
+                        <p>Lets make your brand attractive and competetive with
+                           quality packaging design.
+                        </p>
+                        <a href="#" class="btn">EXPLORE</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/banner-kobo.jpg">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="content">
+                        <span>What we do</span>
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Lets make your brand attractive and competetive with
+                           quality packaging design.
+                        </p>
+                        <a href="#" class="btn">EXPLORE</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/image-wine.jpg">
+                    </div>
+                </div>
+            </div>
+
+         
+            <div class="swiper-pagination"></div>
+           
+        
+
+
+        </div>
+    </section>
+
+
+
+
+    <!--------------------------------About us section----------------------------------->
+
+    <section id="about" class="about">
+        <div class="kontent">
+            <img src="images/aboutFinal2.png" alt="illustration">
+            <div class="text">
+                <h1>About Me</h1>
+                <h5>Graphic Designer and Web Developer</h5>
+                <p>Hi My name is Kagiso Mahoko and Blukage is my design agency.
+                   I'm a Graphic designer from South Africa
+                   with more than 7 years as a freelancer.
+               
+                   <br><br>
+                   My approach to branding design involves blending the clients vision and goal
+                   with my creativity, then turning the idea into reality.
+                   I believe in beautiful designs which are also functional and serve the purpose of marketing.
+                </p>
+
+                <button type="button"><a href="#contactForm">Hire me</a></button>
+
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!----------------------------------Gallery section------------------------------------>
+
+    <div id="portfolio" class="container">
+        <div class="portfolioHeader">
+            <h2>Portfolio</h2>
+        </div>
+        <div class="gallery">
+            <a href="images/image_1.jpg" data-lightbox="portfolio" data-title="Logo design">
+                <img src="images/image_1.jpg">
+            </a>
+            <a href="images/image_2.jpg" data-lightbox="portfolio" data-title="Logo design">
+                <img src="images/image_2.jpg">
+            </a>
+            <a href="images/image_3.jpg" data-lightbox="portfolio" data-title="Logo design">
+                <img src="images/image_3.jpg">
+            </a>
+            <a href="images/image-coffee.png" data-lightbox="portfolio" data-title="Packaging design">
+                <img src="images/image-coffee.png">
+            </a>
+            <a href="images/image_4.jpg" data-lightbox="portfolio" data-title="Packaging design">
+                <img src="images/image_4.jpg">
+            </a>
+            <a href="images/image_6.jpg" data-lightbox="portfolio" data-title="Packaging design">
+                <img src="images/image_6.jpg">
+            </a>
+            <a href="images/image_10.jpg" data-lightbox="portfolio" data-title="Business card">
+                <img src="images/image_10.jpg">
+            </a>
+            <a href="images/image_11.jpg" data-lightbox="portfolio" data-title="Logo design">
+                <img src="images/image_11.jpg">
+            </a>
+            <a href="images/image_9.jpg" data-lightbox="portfolio" data-title="Logo design">
+                <img src="images/image_9.jpg">
+            </a>
+            <a href="images/image_8.jpg" data-lightbox="portfolio" data-title="Logo design">
+                <img src="images/image_8.jpg">
+            </a>
+            <a href="images/image_13.jpg" data-lightbox="portfolio" data-title="Game UI">
+                <img src="images/image_13.jpg">
+            </a>
+            <a href="images/mapulaWeb.jpg" data-lightbox="portfolio" data-title="illustration">
+                <img src="images/mapulaWeb.jpg">
+            </a>
+                        
+        </div>
+
+        <div class="webDev">
+            <h2> Web development</h2>
+            <a href="facebook.com" target="_blank"> <img src="images/port-papisto.JPG"></a>
+            <a href="facebook.com" target="_blank"> <img src="images/port-care.JPG"></a>
+         </div>
+
+    </div>
+
+
+    <!--------------------------Our services section------------------------------->
+
+    <section id="services" class="kontainer">
+
+        <div class="servicesHeader">
+            <h2>Our services</h2>
+        </div>
+
+    <div class="cardsHolder">    
+        <div class="card">
+            <div class="card-image card-1"></div>
+            
+            <h2>Logo design</h2>
+            
+            <ul>
+                <li>3 concepts</li>
+                <li>Quality design</li>
+                <li>Fast turnaround</li>
+            </ul> 
+            <h3>R200</h3>
+            <a href="#">Contact us</a>  
+        </div>
+
+        <div class="card">
+            <div class="card-image card-2"></div>
+            <h2>Packaging design</h2>
+            <ul>
+                <li>2 concepts</li>
+                <li>3D rendering</li>
+                <li>Fast turnaround</li>
+            </ul> 
+            <h3>R300</h3>
+            <a href="#">Contact us</a>  
+        </div>
+
+        <div class="card">
+            <div class="card-image card-3"></div>
+            <h2>Web development</h2>
+            <ul>
+                <li>Fully functional design </li>
+                <li>Mobile responsive</li>
+                <li>Quality</li>
+            </ul> 
+            <h3>R500</h3>
+            <a href="#">Contact us</a>  
+        </div>
+    </div>    
+
+
+    </section>
+
+    <!----------------------------------Contact section---------------------------------->
+
+    <div id="contactForm" class="contactBody">
+        <div class="contactHeader">
+            <h2>Need anything?</h2>
+        </div>
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="phone" placeholder="Phone No." required>
+            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    
+    <!-----------------------------Footer section------------------------------------>
+
+    <section class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kagiso-mahoko-4a096245/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/blukage" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/kage_vaal/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCMFB8oD3alZTjaZXttmioCA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+       
+
+        <ul class="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contactForm">Contact</a></li>
+        </ul>
+
+        <p class="copyright">
+            Kagiso Mahoko @ 2022
+        </p>
+
+       
+
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!--------------------------Swiper script for header--------------->
+    <script>
+         var swiper = new Swiper(".mySwiper", {
+         spaceBetween: 30,
+         centeredSlides: true,
+         autoplay: {
+         delay: 6500,
+         disableOnInteraction: false,
+  },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+  },
+loop:true,
+  
+});
+    </script>
+    <!-------------------------Script for contact form--------------------------------->
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+        function sendEmail(){
+            Email.send({
+            SecureToken : "0fbdc086-9147-40ff-b233-1b867b964161",
+            To : 'kagisomahoko@gmail.com',
+            From : "kagisomahoko@gmail.com",
+            Subject : "New message from contact form",
+            Body : "Name: " + document.getElementById("name").value
+                 + "<br> Email: " + document.getElementById("email").value
+                 + "<br> Phone No: " + document.getElementById("phone").value
+                 + "<br> Message: " + document.getElementById("message").value
+        }).then(
+         message => alert("Message sent successfully")
+        ); 
+           
+        }
+    </script>
+   
+    <!------------------------Javascript link for LightBox-------------------------->
+
+    <script src="lightbox-plus-jquery.js"></script>
+
+    <!-----------------------Javascript for the side nav menu----------------------->
+
+    <script>
+        function openNav(){
+            document.getElementById("sidenavbar").style.width = "50%";
+        }
+
+        function closeNav(){
+            document.getElementById("sidenavbar").style.width = "0%";
+        }
+    </script>    
+        
+  
+
+
+ 
+    
+</body>
+</html>
