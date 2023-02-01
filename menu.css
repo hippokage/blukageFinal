@@ -318,7 +318,6 @@ nav .menuBtn{
         font-size: 1rem;
         letter-spacing: .4rem;
         
-        
     }
 
     .homey .swiper .swiper-slide .content h3{
@@ -372,6 +371,13 @@ nav .menuBtn{
         font-size: 1.5rem;
     }
 
+    .homey .swiper .swiper-slide .content span{
+        
+        font-size: .8rem;
+        
+        
+    }
+
     .btn{
         margin-top: 12px;
     }
@@ -389,7 +395,13 @@ nav .menuBtn{
 
 @media screen and (max-width:400px) {
     .homey{
-        margin-top: 0;
+        margin-top: -34px;
+    }
+
+    .homey .swiper .swiper-slide .image img{
+        width: 200px;
+        
+        
     }
 
 }
@@ -1090,7 +1102,7 @@ form button{
 }
 
 .card-2{
-    background-image: url(images/coffee-card.png);
+    background-image: url(images/vukajoe-card.png);
 }
 
 .card-3{
