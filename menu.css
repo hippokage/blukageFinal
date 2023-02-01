@@ -354,6 +354,12 @@ nav .menuBtn{
         margin-top: -50px;
     }
 
+    nav .logo{
+        font-size: 20px;
+      
+       
+    }
+
     .homey .swiper .swiper-slide{
         text-align: center;
                 
@@ -396,6 +402,12 @@ nav .menuBtn{
 @media screen and (max-width:400px) {
     .homey{
         margin-top: -34px;
+    }
+
+    nav .logo{
+        font-size: 18px;
+      
+       
     }
 
     .homey .swiper .swiper-slide .image img{
