@@ -387,6 +387,11 @@ nav .menuBtn{
 
 }
 
+@media screen and (max-width:400px) {
+    .homey{
+        margin-top: 0;
+    }
+
 
 
 
