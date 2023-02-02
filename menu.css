@@ -1244,12 +1244,16 @@ form button{
 @media screen and (max-width:420px) {
     
 .card ul{
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .card h2{
     font-size: 21px;
+    text-align: start;
+    padding-left: 25px;
 }
+
+
 
 }
 
