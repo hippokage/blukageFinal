@@ -479,7 +479,7 @@ nav .menuBtn{
 
 
 .text h1{
-    color: #03d4fb;
+    color: #5fe3fa;
     font-size: 58px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -501,7 +501,7 @@ nav .menuBtn{
 }
 
 button{
-    background-color: #03d4fb;
+    background-color: #5fe3fa;
     color: black;
     border: 2px solid transparent;
     text-decoration: none;
@@ -861,8 +861,8 @@ form textarea{
 
 form button{
     padding: 15px;
-    background: #03d4fb;
-    color: #fff;
+    background: #5fe3fa;
+    color: #222222;
     font-size: 18px;
     border: 0;
     outline: none;
@@ -1106,8 +1106,8 @@ form button{
 }
 
 .card a{
-    background-color: #03d4fb;
-    color: #fff;
+    background-color: #5fe3fa;
+    color: #222222;
     padding: 10px 15px;
     display: block;
     text-align: center;
