@@ -57,7 +57,7 @@ nav .logo{
 
 
 nav .logo a{
-    color: rgb(71, 204, 245);
+    color: #235c89;
     letter-spacing: .3rem;
    
 }
@@ -198,7 +198,7 @@ nav .menuBtn{
     font-size: 1.3rem;
     font-weight: 700;
     color: rgb(51, 51, 51);
-    background: rgb(71, 204, 245);
+    background: #235c89;
     border-radius: .5rem;
     cursor: pointer;
     padding: .6rem 3rem;
@@ -251,7 +251,7 @@ nav .menuBtn{
 }
 
 .homey .swiper .swiper-slide .content h3{
-    color: #47ccf5;
+    color: #235c89;
     font-size: 3rem;
     margin:20px auto;
     
@@ -268,7 +268,7 @@ nav .menuBtn{
 }
 
 .swiper-pagination-bullet-active{
-    background: rgb(71, 204, 245);
+    background: #235c89;
 
 }
 
@@ -560,7 +560,7 @@ nav .menuBtn{
 
 
 .text h1{
-    color: #47ccf5;
+    color: #235c89;
     font-size: 58px;
     margin-bottom: 20px;
     text-transform: capitalize;
