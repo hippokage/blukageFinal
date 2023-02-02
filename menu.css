@@ -57,7 +57,7 @@ nav .logo{
 
 
 nav .logo a{
-    color: #235c89;
+    color: #03d4fb;
     letter-spacing: .3rem;
    
 }
@@ -198,7 +198,7 @@ nav .menuBtn{
     font-size: 1.3rem;
     font-weight: 700;
     color: rgb(51, 51, 51);
-    background: #235c89;
+    background: #03d4fb;
     border-radius: .5rem;
     cursor: pointer;
     padding: .6rem 3rem;
@@ -251,7 +251,7 @@ nav .menuBtn{
 }
 
 .homey .swiper .swiper-slide .content h3{
-    color: #235c89;
+    color: #03d4fb;
     font-size: 3rem;
     margin:20px auto;
     
@@ -422,88 +422,7 @@ nav .menuBtn{
 }
 
 
-/*----------------------------END of Header CSS----------------------------*/
 
-
-
-/*--------------------CSS for the header----------------------*/
-/*
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    padding-top: 50px;
-    background: url(images/header.jpg);
-}
-
-.row .column1{
-
-    margin-right: -100px;
-    padding-left: 180px;
-    margin-top: -40px;
-    
-}
-
-.row .column1 h1{
-    line-height: 54px;
-    padding-bottom: 50px;
-}
-
-.row .column2{
-  
-    display: flex;
-    margin-right: 40px;
-    
-}
-
-.row .column2 img{
-  
-    width: 900px;
-    display: flex;
-    margin-top: -30px;
-    margin-bottom: 100px;
-    
-}
-
-.column1 h1{
-    font-size: 48px;
-    margin-bottom: 10px;
-    white-space: nowrap;
-}
-
-.column1 p{
-    font-size: 18px;
-    margin-bottom: 60px;
-    
-}
-
-.column1 button{
-    width: 150px;
-    padding: 12px 20px;
-    border-radius: 20px;
-    border-style: none;
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    font-weight: 600;
-    margin: 0;
-    background-color: darkorange;
-    
-    
-}
-
-.column1 button a{
-    text-decoration: none;
-}
-
-.column1 button:hover{
-    background-color: rgb(255, 81, 0);
-    transition: 0.1s ease-in;
-    cursor: pointer;
-   
-    
-}
-*/
 
 
 /*----------------Header responsiveness--------------------*/
@@ -560,7 +479,7 @@ nav .menuBtn{
 
 
 .text h1{
-    color: #235c89;
+    color: #03d4fb;
     font-size: 58px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -582,7 +501,7 @@ nav .menuBtn{
 }
 
 button{
-    background-color: #47ccf5;
+    background-color: #03d4fb;
     color: black;
     border: 2px solid transparent;
     text-decoration: none;
@@ -942,7 +861,7 @@ form textarea{
 
 form button{
     padding: 15px;
-    background: ff5361;
+    background: #03d4fb;
     color: #fff;
     font-size: 18px;
     border: 0;
@@ -1187,7 +1106,7 @@ form button{
 }
 
 .card a{
-    background-color: #47ccf5;
+    background-color: #03d4fb;
     color: #fff;
     padding: 10px 15px;
     display: block;
