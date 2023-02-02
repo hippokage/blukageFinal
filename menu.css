@@ -111,9 +111,6 @@ nav .menuBtn{
         display: none;
     }
 
-    .sideNav{
-        display: block !important;
-    }
 
     nav .logo{
         font-size: 24px;
@@ -132,6 +129,8 @@ nav .menuBtn{
 /*--------------------------Side Nav Menu----------------------------*/
 
 .sideNav{
+  
+    display: none;
     height: 100%;
     position: fixed;
     top: 0;
@@ -140,8 +139,8 @@ nav .menuBtn{
     overflow-x: hidden;
     transition: 0.3s ease-in;
     padding-top: 60px;
-    display: none;
     z-index: 200;
+    
 }
 
 .sideNav a{
@@ -1267,7 +1266,7 @@ form button{
 .card h3{
     text-align: start;
     padding-left: 25px;
-    font-size: 50px;
+    font-size: 38px;
     color: darkorange;
 }
 
