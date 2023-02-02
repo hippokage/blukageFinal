@@ -794,6 +794,11 @@ button:hover{
     width: 100%;
 }
 
+.gallery .logo-border img{
+    border: 1px solid rgb(226, 226, 226);
+    
+}
+
 
 /*-------------------------------Gallery responsive---------------------------*/
 
@@ -1068,6 +1073,12 @@ form button{
 
 }
 
+@media screen and (max-width:420px) {
+    .contactBody{
+        height: fit-content;
+    }
+}
+
 
 
 /*----------------------------Our Services section---------------------------------*/
@@ -1251,6 +1262,13 @@ form button{
     font-size: 21px;
     text-align: start;
     padding-left: 25px;
+}
+
+.card h3{
+    text-align: start;
+    padding-left: 25px;
+    font-size: 50px;
+    color: darkorange;
 }
 
 
