@@ -57,7 +57,7 @@ nav .logo{
 
 
 nav .logo a{
-    color: #03d4fb;
+    color: #5fe3fa;
     letter-spacing: .3rem;
    
 }
@@ -198,7 +198,7 @@ nav .menuBtn{
     font-size: 1.3rem;
     font-weight: 700;
     color: rgb(51, 51, 51);
-    background: #03d4fb;
+    background: #5fe3fa;
     border-radius: .5rem;
     cursor: pointer;
     padding: .6rem 3rem;
@@ -251,7 +251,7 @@ nav .menuBtn{
 }
 
 .homey .swiper .swiper-slide .content h3{
-    color: #03d4fb;
+    color: #5fe3fa;;
     font-size: 3rem;
     margin:20px auto;
     
