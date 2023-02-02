@@ -524,13 +524,18 @@ nav .menuBtn{
     width: 100%;
     height: 100vh;
     background: #222222;
-    padding-top: 100px;
+    
+    
+    
 }
 
 .about .kontent img{
     height: auto;
     width: 500px;
     max-width: 100%;
+
+    
+    
 }
 
 .text{
@@ -641,9 +646,6 @@ button:hover{
 
 
 @media screen and (max-width:650px){      /*-----PHONE------*/
-    
- 
-  
 
     .about{
         height: 100vh;
@@ -676,6 +678,27 @@ button:hover{
         margin-bottom: 10px;
     }
 
+}
+
+@media screen and (max-width:420px){
+    .about .kontent img{
+        margin-top: -100px;
+        
+    }
+
+    .about{
+        height: fit-content;
+        margin-bottom: 0;
+        
+    }
+
+    .about .kontent{
+        max-width: 270px;
+    }
+
+    .about .kontent h5{
+        font-size: 12px;
+    }
 }
 
 
@@ -817,6 +840,17 @@ button:hover{
     }
     
 
+}
+
+@media screen and (max-width:420px) {
+    .portfolioHeader h2::after{
+        position: relative;
+    }
+
+    .gallery{
+        margin-top: -100px;
+    }
+    
 }
 
 
